@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&family=Rubik+Dirt&display=swap');
+
 .banner {
     position: relative;
 }
@@ -10,4 +12,21 @@
     position: absolute;
     top: 0px;
     width: 100%;
+}
+
+.text_banner {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_banner h1 {
+     font-family: "Rubik Dirt", system-ui;
+     color: white;
+     font-size: 96px;
+     text-align: center;
+     font-weight: 400;
+     width: 1310px;
 }

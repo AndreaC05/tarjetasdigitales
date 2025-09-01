@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&family=Rubik+Dirt&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Lunasima", sans-serif;
 }

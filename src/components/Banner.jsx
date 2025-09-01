@@ -11,6 +11,9 @@ export default function Banner() {
                     <div className="header">
                         <Header />
                     </div>
+                    <div className="text_banner">
+                        <h1>Invitaciones Creativas, Interactivas y 100% Digitales</h1>
+                    </div>
                 </div>
             </div>
         </>
