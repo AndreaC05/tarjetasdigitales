@@ -1,0 +1,31 @@
+.container_principal_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.2px solid #D0D0D0;
+    height: 143px;
+}
+
+.list_header_primero {
+    font-size: 18px;
+}
+
+.list_header {
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+.header_list a {
+    text-decoration: none;
+}
+
+.header_list p {
+    color: black;
+}
+
+.numero_contacto {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
