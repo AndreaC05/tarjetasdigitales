@@ -1,0 +1,28 @@
+.container_inicio_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.categoria {
+    margin-top: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.categoria h2 {
+    color: #C25B5F;
+    text-align: center;
+    font-size: 20px;
+}
+
+.carousel_cumpleaños, 
+.carousel_baby_shower {
+    margin-top: 50px;
+}
+
+.carousel_cumpleaños h5, 
+.carousel_baby_shower h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
