@@ -7,6 +7,7 @@ import Corazones from "../assets/corazones.svg";
 import computer from "../assets/Icons/computer.svg";
 import music from "../assets/Icons/music.svg";
 import share from "../assets/Icons/share.svg";
+import Circulo from "../assets/circulo.svg";
 
 export default function Home() {
   const caracteristicas = [
@@ -72,6 +73,10 @@ export default function Home() {
             </div>
             <div className="foto">
               <img src={Perfil} alt="" />
+              <div className="circulo">
+                <img src={Circulo} alt="" />
+                <img src={Circulo} alt="" />
+              </div>
             </div>
           </div>
         </section>

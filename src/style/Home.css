@@ -97,3 +97,34 @@
     margin-top: 0px;
 }
 
+.foto {
+    position: relative;
+}
+
+.circulo {
+    position: absolute;
+    top: 0;
+}
+
+.circulo img {
+    animation: floating 3s ease-in-out infinite;
+}
+
+.circulo img:first-child {
+  animation-delay: 0s;
+}
+
+.circulo img:nth-child(2) {
+    margin-top: -410px;
+    animation-delay: 1.5s;
+}
+
+/* Versión alternativa con movimiento más sutil */
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
