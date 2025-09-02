@@ -14,6 +14,7 @@
     color: #C25B5F;
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .carousel_cumpleaños, 
@@ -26,3 +27,73 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+.sobre_nosotros {
+    position: relative;
+    margin-top: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+    background-color: rgba(238, 178, 178, 0.79);
+}
+
+.corazones_back {
+    position: absolute;
+    z-index: -1;
+    top: 490px;
+}
+
+.sobre_nosotros h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sobre_nosotros p {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.sobre_nosotros p strong {
+    color: #B45058;
+    line-height: 40px;
+    letter-spacing: 0.04px;
+}
+
+.text_sobre_nosotros p {
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 35px;
+    letter-spacing: 0.04px;
+}
+
+.caracteristicas_foto {
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.caja_icon {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    border-bottom: 5px solid #C25B5F;
+    border-right: 5px solid #C25B5F;
+    margin-right: 15px;
+}
+
+.text_caja p {
+    font-size: 26px;
+    letter-spacing: 0.04px;
+    margin-top: 0px;
+}
+
