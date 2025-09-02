@@ -80,6 +80,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="contacto">
+            <h2>CONTACTO</h2>
+        </section>
       </div>
     </>
   );
