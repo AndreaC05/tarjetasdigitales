@@ -25,12 +25,15 @@
     font-size: 18px;
 }
 
-.header_list a {
-    text-decoration: none;
+.header_list button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
-.header_list p {
+.header_list button p {
     color: black;
+    font-size: 18px;
 }
 
 .numero_contacto {
