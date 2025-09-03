@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <Banner />
       <div className="container_inicio_principal">
-        <section className="categoria">
+        <section id="categorias" className="categoria">
           <h2>CATEGORÍA</h2>
           <div className="carousel_cumpleaños">
             <h5>Cumpleaños</h5>
@@ -42,7 +42,7 @@ export default function Home() {
             <CarouselBabyShower />
           </div>
         </section>
-        <section className="sobre_nosotros">
+        <section id="nosotros" className="sobre_nosotros">
             <div className="corazones_back">
                 <img src={Corazones} alt="" />
             </div>
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="contacto">
+        <section id="contacto" className="contacto">
             <h2>CONTACTO</h2>
             <div className="redes_sociales">
               <RedesSociales />
