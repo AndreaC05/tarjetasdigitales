@@ -1,0 +1,123 @@
+.container_redes_sociales ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container_redes_sociales ul li {
+  list-style: none;
+}
+
+.container_redes_sociales ul li:nth-child(1) .pi {
+  font-size: 40px;
+  color: #01C501;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+.container_redes_sociales ul li:nth-child(2) .pi {
+  font-size: 40px;
+  color: #000000;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+.container_redes_sociales ul li:nth-child(3) .pi {
+  font-size: 40px;
+  color: #3b5998;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+.container_redes_sociales ul li a span {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.container_redes_sociales ul li a {
+  text-decoration: none;
+  display: absolute;
+  display: block;
+  width: 210px;
+  height: 80px;
+  background: #fff;
+  text-align: left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container_redes_sociales ul li a:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.container_redes_sociales ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.container_redes_sociales ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px rgba(255, 137, 137, 0.5);
+}
+
+.container_redes_sociales ul li:hover .pi {
+    color:#fff;
+}
+
+.container_redes_sociales ul li:hover span {
+  color:#fff;
+}
+
+.container_redes_sociales ul li:hover:nth-child(3) a{
+  background: #3b5998;
+}
+.container_redes_sociales ul li:hover:nth-child(3) a:before{
+  background: #365492;
+}
+.container_redes_sociales ul li:hover:nth-child(3) a:after{
+  background: #4a69ad;
+}
+
+.container_redes_sociales ul li:hover:nth-child(2) a{
+  background: #141414;
+}
+.container_redes_sociales ul li:hover:nth-child(2) a:before{
+  background: #141414;
+}
+.container_redes_sociales ul li:hover:nth-child(2) a:after{
+  background: #141414;
+}
+
+.container_redes_sociales ul li:hover:nth-child(1) a{
+  background: #01C501;
+}
+.container_redes_sociales ul li:hover:nth-child(1) a:before{
+  background: #01C501;
+}
+.container_redes_sociales ul li:hover:nth-child(1) a:after{
+  background: #01C501;
+}

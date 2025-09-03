@@ -1,8 +1,10 @@
 import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 import "../style/Home.css";
 import Perfil from "../assets/perfil.png";
 import CarouselCumplaños from "../components/CarouselCumpleaños";
 import CarouselBabyShower from "../components/CarouselBabyShower";
+import RedesSociales from "../components/RedesSociales";
 import Corazones from "../assets/corazones.svg";
 import computer from "../assets/Icons/computer.svg";
 import music from "../assets/Icons/music.svg";
@@ -82,8 +84,12 @@ export default function Home() {
         </section>
         <section className="contacto">
             <h2>CONTACTO</h2>
+            <div className="redes_sociales">
+              <RedesSociales />
+            </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
