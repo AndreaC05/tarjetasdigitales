@@ -1,0 +1,10 @@
+.container_footer {
+    margin-top: 130px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 8px;
+    border-top: .4px solid rgba(209, 209, 209, 0.432);
+}
