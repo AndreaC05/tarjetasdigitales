@@ -5,7 +5,8 @@
 }
 
 @media (max-width: 1440px) {
-  .sobre_nosotros, .contacto {
+  .sobre_nosotros,
+  .contacto {
     padding-left: 300px;
     padding-right: 300px;
   }
@@ -23,7 +24,7 @@
     padding: 16px;
   }
 
-  .caja_icon img{
+  .caja_icon img {
     width: 30px;
   }
 
@@ -46,5 +47,34 @@
 
   .corazones_back {
     top: 370px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .categoria,
+  .sobre_nosotros,
+  .contacto {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .caracteristicas_foto {
+    flex-direction: column;
+  }
+
+  .foto {
+    margin-top: 40px;
+  }
+
+  .corazones_back {
+    top: 580px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre_nosotros,
+  .contacto {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }

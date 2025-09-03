@@ -1,4 +1,5 @@
 import "../style/RedesSociales.css";
+import "../style/Responsive/RedesSocialesResponsive.css";
 
 export default function RedesSociales() {
   return (

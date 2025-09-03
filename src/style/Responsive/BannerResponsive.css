@@ -17,3 +17,13 @@
         font-size: 45px;
     }
 }
+
+@media (max-width: 768px) {
+    .text_banner {
+        top: 150px;
+    }
+
+    .text_banner h1 {
+        font-size: 30px;
+    }
+}

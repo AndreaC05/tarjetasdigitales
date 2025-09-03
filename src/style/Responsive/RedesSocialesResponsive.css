@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+  .container_redes_sociales ul {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container_redes_sociales ul li:nth-child(3) {
+    margin-top: 130px;
+  }
+}
