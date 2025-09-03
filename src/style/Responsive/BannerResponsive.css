@@ -1,0 +1,19 @@
+@media (max-width: 1440px) {
+    .text_banner {
+        top: 250px;
+    }
+
+    .text_banner h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text_banner {
+        top: 210px;
+    }
+
+    .text_banner h1 {
+        font-size: 45px;
+    }
+}

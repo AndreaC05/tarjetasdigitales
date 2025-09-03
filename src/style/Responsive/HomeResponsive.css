@@ -1,0 +1,50 @@
+@media (min-width: 1921px) {
+  .corazones_back {
+    top: 400px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .sobre_nosotros, .contacto {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .sobre_nosotros p {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
+  .text_sobre_nosotros p {
+    font-size: 18px;
+  }
+
+  .caja_icon {
+    padding: 16px;
+  }
+
+  .caja_icon img{
+    width: 30px;
+  }
+
+  .text_caja p {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  .caracteristicas_foto {
+    margin-top: 20px;
+  }
+
+  .foto_perfil {
+    width: 300px;
+  }
+
+  .circulo img {
+    width: 300px;
+  }
+
+  .corazones_back {
+    top: 370px;
+  }
+}

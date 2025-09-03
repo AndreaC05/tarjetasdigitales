@@ -1,6 +1,7 @@
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import "../style/Home.css";
+import "../style/Responsive/HomeResponsive.css";
 import Perfil from "../assets/perfil.png";
 import CarouselCumplaños from "../components/CarouselCumpleaños";
 import CarouselBabyShower from "../components/CarouselBabyShower";
@@ -74,7 +75,7 @@ export default function Home() {
               ))}
             </div>
             <div className="foto">
-              <img src={Perfil} alt="" />
+              <img src={Perfil} alt="" className="foto_perfil"/>
               <div className="circulo">
                 <img src={Circulo} alt="" />
                 <img src={Circulo} alt="" />

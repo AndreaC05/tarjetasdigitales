@@ -1,44 +1,92 @@
 .container_principal_header {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 0.2px solid #D0D0D0;
-    height: 143px;
-    position: fixed;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: transparent; /* por defecto transparente */
-    z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.2px solid #d0d0d0;
+  height: 143px;
+  position: fixed;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: transparent; /* por defecto transparente */
+  z-index: 999;
 }
 
 .container_principal_header.scrolled {
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .list_header_primero {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .list_header {
-    margin-left: 70px;
-    font-size: 18px;
+  margin-left: 70px;
+  font-size: 18px;
 }
 
 .header_list button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .header_list button p {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
 }
 
 .numero_contacto {
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
 }
 
+/* Ocultar el botón hamburguesa en pantallas grandes */
+.menu-button {
+  display: none !important;
+}
+
+@media (max-width: 1024px) {
+  .container_principal_header {
+    height: 100px;
+  }
+  
+  .logo {
+    width: 130px;
+  }
+  .header_list button p {
+    color: black;
+    font-size: 12px;
+  }
+  .numero_contacto {
+    font-size: 14px;
+  }
+}
+
+/* Mostrar botón hamburguesa y ocultar menú horizontal en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .header_list,
+  .numero_contacto {
+    display: none !important;
+  }
+
+  .menu-button {
+    display: block !important;
+  }
+}
+
+/* Opcional: estilo de los links del sidebar */
+.sidebar_links button {
+  display: block;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #333;
+}
+
+.sidebar_links button:hover {
+  text-decoration: underline;
+}

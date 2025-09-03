@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Fondo from "../assets/Fondo.png";
 import "../style/Banner.css";
+import "../style/Responsive/BannerResponsive.css";
 
 export default function Banner() {
     return(
