@@ -78,3 +78,11 @@
     padding-right: 100px;
   }
 }
+
+@media (max-width: 425px) {
+  .sobre_nosotros,
+  .contacto, .categoria {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

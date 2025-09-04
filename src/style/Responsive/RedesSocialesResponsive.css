@@ -11,3 +11,20 @@
     margin-top: 130px;
   }
 }
+
+@media (max-width: 425px) {
+  .container_redes_sociales {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_redes_sociales ul {
+    gap: 120px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container_redes_sociales ul li:nth-child(3) {
+    margin-top: 0px;
+  }
+}

@@ -8,3 +8,9 @@ footer {
     padding: 30px 8px;
     border-top: .4px solid rgba(209, 209, 209, 0.432);
 }
+
+@media (max-width: 425px) {
+    footer p {
+        font-size: 12px;
+    }
+}
