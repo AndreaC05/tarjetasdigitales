@@ -44,6 +44,7 @@
     }
 
     .text_banner h1 {
+        width: 100%;
         font-size: 18px;
     }
 }
