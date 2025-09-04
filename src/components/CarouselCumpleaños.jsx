@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from 'primereact/button';
 import { Carousel } from 'primereact/carousel';
 import "../style/Carousel.css";
+import "../style/Responsive/CarouselResponsive.css";
 import Imagen from "../assets/imagen.png";
 
 export default function CarouselCumplaños() {
@@ -59,7 +60,7 @@ export default function CarouselCumplaños() {
         <img 
           src={cumpleanos.imagen} 
           alt="Live stream" 
-          className="w-full h-full object-cover"
+          className="w-full object-cover"
         />
         
         {/* Botón Live posicionado encima de la imagen */}

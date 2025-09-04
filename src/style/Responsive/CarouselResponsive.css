@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+    .template_cumpleaños img {
+        width: 200px !important;
+    }
+
+    .p-carousel-items-content {
+        height: 250px !important;
+    }
+}     

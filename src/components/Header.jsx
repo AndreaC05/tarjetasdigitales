@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Logo from "../assets/Logo.svg";
 import "../style/Header.css";
+import "../style/Responsive/HeaderResponsive.css";
 import { Sidebar } from 'primereact/sidebar';
 import { Button } from 'primereact/button';
 

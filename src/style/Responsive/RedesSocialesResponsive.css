@@ -14,7 +14,7 @@
 
 @media (max-width: 425px) {
   .container_redes_sociales {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
   }
