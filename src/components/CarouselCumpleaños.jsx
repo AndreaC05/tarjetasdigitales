@@ -60,7 +60,7 @@ export default function CarouselCumplaños() {
         <img 
           src={cumpleanos.imagen} 
           alt="Live stream" 
-          className="w-full object-cover"
+          className="object-cover"
         />
         
         {/* Botón Live posicionado encima de la imagen */}
@@ -78,7 +78,7 @@ export default function CarouselCumplaños() {
         </div>
 
         {/* Overlay opcional para mejorar la legibilidad del botón */}
-        <div className="absolute top-0 right-0 w-full h-full bg-black-alpha-10 pointer-events-none"></div>
+        <div className="absolute top-0 right-0 bg-black-alpha-10 pointer-events-none"></div>
       </div>
     );
   };
