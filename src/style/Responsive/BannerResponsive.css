@@ -37,3 +37,13 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 320px) {
+    .text_banner {
+        top: 60px;
+    }
+
+    .text_banner h1 {
+        font-size: 18px;
+    }
+}

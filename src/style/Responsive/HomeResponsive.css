@@ -88,5 +88,33 @@
 }
 
 @media (max-width: 375px) {
-  
+  .sobre_nosotros p {
+    margin-top: 50px;
+    font-size: 22px;
+  }
+
+  .text_sobre_nosotros p {
+    font-size: 16px;
+  }
+
+  .caja_icon {
+    padding: 12px;
+  }
+
+  .caja_icon img {
+    width: 22px;
+  }
+
+  .text_caja p {
+    font-size: 17px;
+    margin-top: 0px;
+  }
+
+  .foto_perfil {
+    width: 280px;
+  }
+
+  .circulo img {
+    width: 280px;
+  }
 }

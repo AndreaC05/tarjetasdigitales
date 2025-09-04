@@ -2,7 +2,7 @@
   .container_principal_header {
     height: 60px;
   }
-  
+
   .logo {
     width: 80px;
   }
@@ -12,5 +12,15 @@
   }
   .numero_contacto {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container_principal_header {
+    height: 50px;
+  }
+
+  .logo {
+    width: 70px;
   }
 }
