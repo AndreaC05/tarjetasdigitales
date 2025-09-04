@@ -45,6 +45,30 @@
 /* Ocultar el botón hamburguesa en pantallas grandes */
 .menu-button {
   display: none !important;
+  color: black;
+}
+
+.sidebar {
+  background-color: white;
+  padding-left: 20px;
+}
+.logo_icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo_icon img {
+  width: 100px;
+}
+
+.sidebar .sidebar_links {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .sidebar_links Button {
+  color: #c25b5f;
 }
 
 @media (max-width: 1024px) {
