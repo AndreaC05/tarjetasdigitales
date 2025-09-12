@@ -12,8 +12,8 @@ export default function CarouselCumplaños() {
   const cumpleanosData = [
     {
       id: 1,
-      imagen: Imagen,
-      enlace: "/live/maria"
+      imagen: "https://res.cloudinary.com/dnao6nouz/image/upload/v1757706749/TerjetaCumplea%C3%B1osTinkerBell_khgmgk.png",
+      enlace: "https://tarjetadigitalandreasv1.netlify.app/"
     },
     {
       id: 2,
