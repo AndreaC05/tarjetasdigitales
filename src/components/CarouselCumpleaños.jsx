@@ -17,8 +17,8 @@ export default function CarouselCumplaños() {
     },
     {
       id: 2,
-      imagen: Imagen,
-      enlace: "/live/carlos"
+      imagen: "https://res.cloudinary.com/dnao6nouz/image/upload/v1757944531/TarjetaCumplea%C3%B1osKimetsu_wmarfo.png",
+      enlace: "https://tarjetadigitalandreasv2.netlify.app/"
     },
     {
       id: 3,
