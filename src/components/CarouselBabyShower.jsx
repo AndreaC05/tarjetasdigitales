@@ -11,8 +11,8 @@ export default function CarouselBabyShower() {
   const cumpleanosData = [
     {
       id: 1,
-      imagen: Imagen,
-      enlace: "/live/maria"
+      imagen: "https://res.cloudinary.com/dnao6nouz/image/upload/v1758030201/image_24_olucls.png",
+      enlace: "https://tarjetadigitalandreasv3.netlify.app/"
     },
     {
       id: 2,
