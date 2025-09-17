@@ -22,18 +22,18 @@ export default function CarouselCumplaños() {
     },
     {
       id: 3,
-      imagen: Imagen,
-      enlace: "/live/ana"
+      imagen: "https://res.cloudinary.com/dnao6nouz/image/upload/v1758143598/image_32_ccx92u.png",
+      enlace: "https://tarjetadigitalandreasv4.netlify.app/"
     },
     {
       id: 4,
-      imagen: Imagen,
-      enlace: "/live/luis"
+      imagen: "https://res.cloudinary.com/dnao6nouz/image/upload/v1758143691/image_33_njtoxb.png",
+      enlace: "https://tarjetadigitalandreasv5.netlify.app/"
     },
     {
       id: 5,
-      imagen: Imagen,
-      enlace: "/live/luis"
+      imagen: "https://res.cloudinary.com/dnao6nouz/image/upload/v1758143761/image_34_a0ayas.png",
+      enlace: "https://tarjetadigitalandreasv6.netlify.app/"
     },
     {
       id: 6,
